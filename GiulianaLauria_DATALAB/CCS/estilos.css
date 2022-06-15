@@ -1,0 +1,115 @@
+@font-face {
+    font-family: miFuente1 ;
+    src: url(../tipografias/Inter-SemiBold.ttf);
+font-weight: 900;
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url(../tipografias/Inter-Light.ttf);
+    font-weight: 400;
+
+}
+header {
+display:flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+
+
+}
+body { 
+    font-family: miFuente1;
+    font-size: 80%;
+    color:#000000;
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
+
+img { 
+    width: 50vw;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: -7%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: miFuente2;
+    font-size: 3.34em;
+    font-weight: 400;
+    color:#000000;
+    
+    margin-left: 13%;
+    margin-top: -3000%;
+    border: 1px solid;
+    padding: 0.3em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-width: 2px;
+    border-style: inset;
+    border-radius: 50px;
+
+
+}
+
+
+#foto {
+    display: flex;
+    margin: auto;
+    margin-top: -15.5%;
+    margin-left: 73%;
+    align-items: center;
+    width: 50vw;
+    justify-content: center;
+    
+}
+
+
+.columnas {
+    display: table;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.columna1 {
+    display: flexbox;
+    width: 89%;
+    padding: 10%;
+    align-items: center;
+    
+    font-family: miFuente1;
+    font-size: 3.69em;
+    font-weight: 900;
+    color: #000000;
+    margin-top: -2%;
+    margin-bottom: -10%;
+    margin-left: 8%;
+}
+
+.columnaworks {
+    padding-left: 8.4em;
+
+}
+
+.columnainstagram {
+    padding-left: 73.5%;
+    margin-top: -2.6%;
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+        body { 
+        font-family: miFuente1;
+        font-size: 60%;
+        color:#000000;}
+
+}
+
